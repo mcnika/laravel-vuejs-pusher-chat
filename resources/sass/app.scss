@@ -1,0 +1,242 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//Fontawesome
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+html{
+    height: 100%;
+}
+
+body
+{
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+
+    overflow: hidden;
+}
+
+#app{
+    height: 100%;
+}
+
+a:hover
+{
+    text-decoration: none;
+}
+
+.wrapper
+{
+    display: flex;
+    height: 100%;
+
+    align-items: stretch;
+}
+
+.form-control:focus
+{
+    box-shadow: none;
+}
+
+.avatar img
+{
+    margin-right: 10px;
+
+    border-radius: 50%;
+}
+
+.sidebar
+{
+    min-width: 250px;
+    max-width: 250px;
+    /*transition: all 0.3s;*/
+    height: 100vh;
+
+    background: #323446;
+}
+
+.sidebar,
+.sidebar a
+{
+    color: #a7b1c2;
+}
+
+.sidebar-header
+{
+    padding: 25px 15px;
+
+    text-align: center;
+
+    background: #2d2f42;
+}
+
+.sidebar-header .dropdown-toggle
+{
+    display: block;
+}
+
+.sidebar-header .dropdown-menu
+{
+    font-size: 15px;
+
+    color: #a7b1c2;
+    border-radius: 0;
+    background: #383b4e;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover
+{
+    color: #fff;
+    background: #383b4e;
+}
+
+.sidebar-content
+{
+    overflow: auto;
+
+    padding-top: 20px;
+
+    flex: 1;
+}
+
+
+.contacts li > div
+{
+    font-weight: 600;
+
+    display: block;
+
+    padding: 14px 15px 14px 15px;
+}
+
+.contacts li div:hover{
+    cursor: pointer;
+}
+
+.contacts li div:hover,
+.contacts li div:focus,
+.contacts li div.selected
+{
+    background-color: #4f536e;
+}
+
+.contact-info span
+{
+    display: block;
+}
+
+.contact-name
+{
+    color: #fff;
+}
+
+.page-wrapper
+{
+    width: 100%;
+    height: 100%;
+}
+
+.chat-header
+{
+    padding: 10px 25px;
+
+    background: #ececf1;;
+}
+
+.chatting-with
+{
+    font-size: 16px;
+}
+
+.chat-content
+{
+    overflow-y: auto; 
+
+    flex-grow: 1; 
+}
+
+.messages
+{
+    padding: 20px;
+}
+
+.message-details span
+{
+    display: block;
+}
+
+.message
+{
+    position: relative;
+
+    display: block;
+
+    padding: 10px;
+
+    border-radius: 25px;
+    background-color: #e8e8e8;
+}
+
+.time
+{
+    font-size: 10px;
+
+    display: block;
+
+    color: rgba(0,0,0,.3);
+}
+
+.send-message textarea
+{
+    font-size: 14px;
+
+    border-radius: 0;
+}
+
+.btn-send
+{
+    cursor: pointer;
+
+    color: #fff;
+    border-radius: 0;
+    background: #323446;
+}
+
+.select-a-contact{
+    flex: 1;
+}
+
+.select-a-contact .icon {
+    font-size: 150px;
+    color: rgba(0, 0, 0, 0.1);
+    line-height: 1;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.select-a-contact p{
+    font-size: 40px;   
+
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 0;
+}
